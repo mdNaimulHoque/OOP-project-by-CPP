@@ -1,6 +1,6 @@
 # OOP-project-by-CPP
 
-#student-result
+##student-result
 Make an array of Student class of size N. Template is given below:
 Class Student
 {
