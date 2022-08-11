@@ -31,7 +31,8 @@ int main()
     for (int i = 1; i <= n; i++)
     {
         cout << "Product " << i << " Name: ";
-        cin >> my_shop->product_name[i];
+        cin.ignore();
+        getline(cin, my_shop->product_name[i]);
         cout << "Product " << i << " Price: ";
         cin >> my_shop->product_price[i];
         cout << "Product " << i << " Quantity: ";
